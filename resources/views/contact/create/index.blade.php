@@ -4,6 +4,6 @@
 
 @section('content')
 
-<h1>flkdjhnfojdanhfjah dfujh</h1>
+<h1>Entre em contato</h1>
 
 @endsection

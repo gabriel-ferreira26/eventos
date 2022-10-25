@@ -82,3 +82,9 @@ body {
     background: #c4c1da;
 }
 
+.body {
+    margin-left: 70px;
+    padding: 1%;
+    width: 100%;
+    background: #2d2d2d;
+}
