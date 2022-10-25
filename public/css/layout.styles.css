@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
     box-shadow: 10px 0 0 #c4c1da;
     overflow-x: hidden;
     transition: 0.5s;
+    z-index: 1;
 }
 
 .navigation:hover{
@@ -84,7 +86,6 @@ body {
 
 .body {
     margin-left: 70px;
-    padding: 1%;
     width: 100%;
     background: #2d2d2d;
 }

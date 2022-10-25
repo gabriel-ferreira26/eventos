@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/layout.styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>@yield('title')</title>
@@ -13,7 +15,7 @@
     <div class="navigation">
         <ul>
             <li class="list active">
-                <a href="#">
+                <a href="/">
                     <span class="icon material-symbols-outlined">home</span>
                     <span class="title-menu">Inicio</span>
                 </a>

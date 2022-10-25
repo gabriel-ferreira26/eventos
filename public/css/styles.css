@@ -1,0 +1,73 @@
+.card {
+    background: #161616 !important;
+}
+
+.card-container {
+    margin: 20px;
+}
+
+#search-container {
+    background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1{
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#event-container {
+    padding: 100px;
+}
+
+#event-container h2 {
+    margin-bottom: 10px;
+}
+
+#event-container .subtitle {
+    margin-bottom: 30px;
+}
+
+#event-container .card{
+
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#event-container .card img {
+    border-radius: 10px;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: #757575;
+}
+
+.card .card-title {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.card .participants {
+    font-size: 14px;
+    color: #757575;
+}
