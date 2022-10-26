@@ -24,7 +24,7 @@
     <div id="card-container" >
         @foreach ($events as $i => $event)
             <div class="card col-md-3 m-1 p-3">
-                <img src="https://source.unsplash.com/random/300x300?r={{$i}}" alt="{{$event->title}}">
+                <img src="/img/events/{{$event->image}}" alt="{{$event->title}}">
                 <div class="card-body">
                     <p class="card-date">{{$event->created_at}}</p>
                     <h5 class="card-title">{{$event->title}}</h5>

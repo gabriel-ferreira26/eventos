@@ -9,10 +9,10 @@ class Event extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'title',
-        'city',
-        'description',
-        'private'
-    ];
+    // protected $fillable = [
+    //     'title',
+    //     'city',
+    //     'description',
+    //     'private'
+    // ];
 }
