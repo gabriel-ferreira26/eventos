@@ -7,11 +7,10 @@ use App\Http\Controllers\EventController;
 Route::controller(EventController::class)->group(function(){
     Route::get('/', 'index');
     Route::get('/events/create', 'create');
-    Route::get('/events/{$id}', 'show');
+    Route::get('/events/{id}', 'show');
     Route::post('/events','store');
 });
 
-// Route::get('/events/{$id}', [EventController::class,'show']);
 Route::controller(ContactController::class)->group(function(){
     Route::get('/contato', 'index');
 });

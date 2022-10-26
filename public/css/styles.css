@@ -79,3 +79,50 @@
     background-position: 15%;
     margin-bottom: 50px;
 }
+
+
+/* Event page */
+.bg-default{
+    background-color: #161616;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#container-center {
+    display: flex;
+    height: 100vh;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-container,
+#info-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#image-container img {
+  border-radius: 10px;
+}
+
+#info-container h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#info-container p {
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#info-container #event-submit {
+  margin: 20px 0;
+}
