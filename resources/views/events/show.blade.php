@@ -12,12 +12,14 @@
             </div>
             <div id="info-container" class="col-md-6">
                 <h1>{{ $event->title }}</h1>
-                <p class="event-city"><ion-icon name="location-outline"></ion-icon> {{ $event->city }}</p>
-                <p class="events-participants"><ion-icon name="people-outline"></ion-icon> X Participantes</p>
-                <p class="event-owner"><ion-icon name="star-outline"></ion-icon> Dono do Evento</p>
-                <a href="#" class="btn btn-primary" id="event-submit">Confirmar Presença</a>
-                <h3>Sobre o evento:</h3>
+                <p class="event-city"><span class="icons material-symbols-outlined">location_on</span> {{ $event->city }}</p>
+                <p class="events-participants"><span class="icons material-symbols-outlined">group</span> X Participantes</p>
+                <p class="event-owner"><span class="icons material-symbols-outlined">star</span>  Dono do Evento</p>
+
+                <h3 class="mt-3">Sobre o evento:</h3>
                 <p class="event-description">{{ $event->description }}</p>
+
+                <a href="#" class="btn btn-primary" id="event-submit">Confirmar Presença</a>
             </div>
 
         </div>

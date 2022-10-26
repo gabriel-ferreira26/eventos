@@ -88,6 +88,16 @@
     border-radius: 10px;
 }
 
+.icons {
+    margin: 5px;
+}
+
+.event-city,
+.events-participants,
+.event-owner {
+    align-items: center;
+}
+
 #container-center {
     display: flex;
     height: 100vh;
