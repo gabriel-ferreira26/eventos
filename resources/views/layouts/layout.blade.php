@@ -27,19 +27,7 @@
                 </a>
             </li>
             <li class="list">
-                <a href="#">
-                    <span class="icon material-symbols-outlined">refresh</span>
-                    <span class="title-menu">link 3</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon material-symbols-outlined">grade</span>
-                    <span class="title-menu">link 4</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="/contact/create">
+                <a href="/contato">
                     <span class="icon material-symbols-outlined">phone</span>
                     <span class="title-menu">Contato</span>
                 </a>

@@ -3,7 +3,6 @@
 @section('title', 'Titulo')
 
 @section('content')
-
 <div id="search-container" class="col-md-12">
     <h1>Busque um evento</h1>
     <form action="">
@@ -12,6 +11,13 @@
 </div>
 
 <div id="event-container" class="col-md-12">
+
+
+    @if (session('msg'))
+        <div class="alert alert-success" role="alert">
+            {{session('msg')}}
+        </div>
+    @endif
     <h2>Proximos eventos</h2>
     <p>Veja abaixo os eventos dos proximos dias</p>
 

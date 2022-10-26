@@ -20,10 +20,12 @@ class EventController extends Controller
 
     public function store(Request $request)
     {
+        // Usando o create, o fillable deve ser adicionado no model
         $data = $request->only('title', 'city', 'description', 'private');
         Event::create($data);
-        // $event = new Event;
 
+        // Usando o save, a classe model deve ser instanciada
+        // $event = new Event;
         // $event->title       = $request->title;
         // $event->city        = $request->city;
         // $event->description = $request->description;
@@ -31,6 +33,6 @@ class EventController extends Controller
 
         // $event->save();
 
-        return redirect("/");
+        return redirect("/")->with("msg","Evento criado com sucesso!");
     }
 }

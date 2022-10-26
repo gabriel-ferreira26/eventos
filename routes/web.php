@@ -10,8 +10,12 @@ Route::controller(EventController::class)->group(function(){
     Route::post('/events','store');
 });
 
+Route::controller(ContactController::class)->group(function(){
+    Route::get('/contato', 'index');
+});
+
 // Route::get('/', [EventController::class, 'index']);
 // Route::get('/events/create', [EventController::class, 'create']);
 // Route::post('/events', [EventController::class], 'store');
 
-Route::get('/contato', [ContactController::class, 'create']);
+// Route::get('/contato', [ContactController::class, 'create']);
