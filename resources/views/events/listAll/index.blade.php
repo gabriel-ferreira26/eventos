@@ -6,7 +6,7 @@
 <div id="search-container" class="col-md-12">
     <h1>Busque um evento</h1>
     <form method="GET" action="/">
-        <input type="text" id="search" name="search" class="form-control" placeholder="Procurar">
+        <input type="text" id="search" value="{{$search ? $search : ''}}" name="search" class="form-control" placeholder="Procurar">
     </form>
 </div>
 
