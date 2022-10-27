@@ -13,6 +13,8 @@ class Event extends Model
         'items' => 'array'
     ];
 
+    protected $dates = ['date'];
+
     // protected $fillable = [
     //     'title',
     //     'city',

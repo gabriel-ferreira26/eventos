@@ -27,6 +27,7 @@ class EventController extends Controller
         // Usando o save, a classe model deve ser instanciada
         $event = new Event;
         $event->title       = $request->title;
+        $event->date        = $request->date;
         $event->city        = $request->city;
         $event->description = $request->description;
         $event->private     = $request->private;
