@@ -24,7 +24,7 @@
         </div>
         <div class="form-group m-2">
             <label for="description">Descricão</label>
-            <textarea class="form-control" rows="4" id="description" name="description" placeholder="Descri��o do evento" ></textarea>
+            <textarea class="form-control" rows="4" id="description" name="description" placeholder="Descrição do evento" ></textarea>
         </div>
         <div class="form-group m-2">
             <label for="private">Privado</label>
@@ -32,6 +32,21 @@
                 <option value="0">Não</option>
                 <option value="1">Sim</option>
             </select>
+        </div>
+        <div class="form-group m-2">
+            <label for="private">Adicione itens da infraestrutura</label>
+            <div class="form-group">
+                <input type="checkbox" name="items[]" value="Cadeira" id="cadeira">
+                <label for="cadeira">Cadeira</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="items[]" value="openbar" id="openbar">
+                <label for="openbar">Open bar</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="items[]" value="palco" id="palco">
+                <label for="palco">Open food</label>
+            </div>
         </div>
         <input type="submit" value="Criar" class="btn btn-primary m-2">
 
