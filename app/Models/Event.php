@@ -21,4 +21,8 @@ class Event extends Model
     //     'description',
     //     'private'
     // ];
+
+    public function user() {
+        return $this->belongsTo('App\Model\User');
+    }
 }

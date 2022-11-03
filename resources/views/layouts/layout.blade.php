@@ -20,18 +20,59 @@
                     <span class="title-menu">Inicio</span>
                 </a>
             </li>
-            <li class="list">
-                <a href="/events/create">
-                    <span class="icon material-symbols-outlined">add</span>
-                    <span class="title-menu">Criar Evento</span>
-                </a>
-            </li>
+
             <li class="list">
                 <a href="/contato">
                     <span class="icon material-symbols-outlined">phone</span>
                     <span class="title-menu">Contato</span>
                 </a>
             </li>
+            @auth
+                <li class="list">
+                    <a href="/events/create">
+                        <span class="icon material-symbols-outlined">add</span>
+                        <span class="title-menu">Criar Evento</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon material-symbols-outlined">view_list</span>
+                        <span class="title-menu">Meus Eventos</span>
+                    </a>
+                </li>
+
+                <form action="/logout" method="POST">
+
+                    <li class="list">
+                        <a  href="/logout"
+                            onclick="   event.preventDefault();
+                                        this.closest('form').submit();">
+                            @csrf
+                            <span class="icon material-symbols-outlined">logout</span>
+                            <span class="title-menu">Logout</span>
+                        </a>
+                    </li>
+                </form>
+
+            @endauth
+
+            @guest
+                <li class="list">
+                    <a href="/login">
+                        <span class="icon material-symbols-outlined">login</span>
+                        <span class="title-menu">Login</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="/resgister">
+                        <span class=" icon material-symbols-outlined">how_to_reg</span>
+                        <span class="title-menu">Registro</span>
+                    </a>
+                </li>
+            @endguest
+
         </ul>
     </div>
     <div class="body">
