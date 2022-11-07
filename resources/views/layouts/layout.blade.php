@@ -36,7 +36,7 @@
                 </li>
 
                 <li class="list">
-                    <a href="#">
+                    <a href="/dashboard">
                         <span class="icon material-symbols-outlined">view_list</span>
                         <span class="title-menu">Meus Eventos</span>
                     </a>
